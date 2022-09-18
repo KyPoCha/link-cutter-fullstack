@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Mern stack project",
   "main": "app.js",
+  "homepage": "https://kypocha.github.io/link-cutter-fullstack/",
   "scripts": {
     "start": "cross-env NODE_ENV=production node app.js",
     "server": "nodemon app.js",
