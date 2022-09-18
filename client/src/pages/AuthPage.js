@@ -27,7 +27,7 @@ export const AuthPage = ()=>{
 
     const registerHandler = async ()=>{
         try {
-            const data = await request("/api/auth/register", "POST", {...form});
+            const data = await request("https://link-cutter-kypocha-2-0.herokuapp.com/api/auth/register", "POST", {...form});
             message(data.message);
         }
         catch (e) {
@@ -36,7 +36,7 @@ export const AuthPage = ()=>{
 
     const loginHandler = async ()=>{
         try {
-            const data = await request("/api/auth/login", "POST", {...form});
+            const data = await request("https://link-cutter-kypocha-2-0.herokuapp.com/api/auth/login", "POST", {...form});
             auth.login(data.token, data.userId);
         }
         catch (e) {

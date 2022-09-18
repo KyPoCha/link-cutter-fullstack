@@ -11,7 +11,7 @@ export const LinksPage = ()=>{
 
     const fetchLinks =  useCallback(async ()=>{
         try {
-            const fetched = await request("/api/link", "GET", null, {
+            const fetched = await request("https://link-cutter-kypocha-2-0.herokuapp.com/api/link", "GET", null, {
                 Authorization: `Bearer ${token}`
             });
 

@@ -16,8 +16,8 @@ export const CreatePage = ()=>{
     const pressHandler = async (event) => {
         if(event.key === "Enter"){
             try {
-                const data = await request("/api/link/generate", "POST", {from: link}, {Authorization: `Bearer ${auth.token}`});
-                history.push(`/detail/${data.link._id}`);
+                const data = await request("https://link-cutter-kypocha-2-0.herokuapp.com/api/link/generate", "POST", {from: link}, {Authorization: `Bearer ${auth.token}`});
+                history.push(`https://link-cutter-kypocha-2-0.herokuapp.com/detail/${data.link._id}`);
             }
             catch (e) {
             }
