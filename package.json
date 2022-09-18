@@ -5,7 +5,8 @@
   "main": "app.js",
   "homepage": "https://kypocha.github.io/link-cutter-fullstack/",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node app.js",
+    "start.1": "cross-env NODE_ENV=production node app.js",
+    "start": "node app.js",
     "server": "nodemon app.js",
     "client": "npm run start --prefix client",
     "client:install": "npm install --prefix client",
