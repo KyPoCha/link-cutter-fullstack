@@ -3,6 +3,8 @@ const config = require("config");
 const mongoose = require("mongoose");
 const {mongo} = require("mongoose");
 const path = require("path");
+require("dotenv").config();
+const cors = require("cors");
 
 const app = express();
 
@@ -23,6 +25,7 @@ if(process.env.NODE_ENV === "production"){
 }
 
 const PORT = config.get("port") || 5000;
+app.use(cors());
 async function start() {
     try {
        await mongoose.connect(config.get("mongoUri"), {
