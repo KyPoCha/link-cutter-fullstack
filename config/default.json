@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "poliskyr",
+  "mongoUri": "mongodb+srv://kyrylo:1234@cluster0.l0tit3q.mongodb.net/?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}
