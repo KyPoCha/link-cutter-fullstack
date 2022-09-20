@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 async function start() {
     try {
-       await mongoose.connect(process.env.MONGOBD_URI, {
+       await mongoose.connect("mongodb+srv://kyrylo:1234@cluster0.l0tit3q.mongodb.net/?retryWrites=true&w=majority", {
            useNewUrlParser: true,
            useUnifiedTopology: true,
            //useCreateIndex: true,
