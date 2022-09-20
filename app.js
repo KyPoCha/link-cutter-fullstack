@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 async function start() {
     try {
-       await mongoose.connect(config.get("mongoUri"), {
+       await mongoose.connect(process.env.MONGOBD_URI, {
            useNewUrlParser: true,
            useUnifiedTopology: true,
            //useCreateIndex: true,
