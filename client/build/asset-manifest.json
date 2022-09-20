@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/link-cutter-fullstack/static/css/main.34aaaf3d.css",
+    "main.js": "/link-cutter-fullstack/static/js/main.1e312d21.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/link-cutter-fullstack/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/link-cutter-fullstack/index.html",
+    "main.34aaaf3d.css.map": "/link-cutter-fullstack/static/css/main.34aaaf3d.css.map",
+    "main.1e312d21.js.map": "/link-cutter-fullstack/static/js/main.1e312d21.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/link-cutter-fullstack/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34aaaf3d.css",
+    "static/js/main.1e312d21.js"
+  ]
+}
